@@ -34,6 +34,21 @@ li {
     font-family: var(--primary-font);
 
 }
+
+.contacts:hover {
+    color: black;
+}
+
+.fa-solid:hover {
+    color: red;
+}
+
 .contactIcon{
     color: var(--main-color);
+}
+
+@media screen and (max-width: 1000px){
+    .contactText {
+        display: none;
+    }
 }
