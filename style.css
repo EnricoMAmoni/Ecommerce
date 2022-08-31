@@ -58,7 +58,7 @@ li {
 }
 
 .navbar{
-    height: 116px;
+    height: 90px;
     position: sticky;
     top: 0px;
     background-color: white;
@@ -104,3 +104,21 @@ li {
   .button-1:focus {
     background-color: #F082AC;
   }
+
+
+  .colorAnchor {
+    width: 90px;
+    color: black;
+  }
+
+
+  .colorAnchor:hover {
+    color: var(--main-color);
+    
+  }
+
+  #navbarWrapper.scrolled {
+    
+    transition: all 0.5s ease;
+    height: 60px;
+ }
