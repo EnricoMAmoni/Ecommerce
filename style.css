@@ -67,10 +67,11 @@ li {
 
 .masthead{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.5)), url(./media/hero_2.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: scroll;
+    height: 75vh;
 }
 
 .button-1 {
@@ -143,5 +144,8 @@ li {
     text-align: center;
     white-space: nowrap;
     border: 1px solid #FFFFFF;
-
+}
+.pImg{
+    font-size: 18px;
+    font-weight: 200;
 }
