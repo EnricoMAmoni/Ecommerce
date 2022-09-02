@@ -22,17 +22,17 @@ window.addEventListener('scroll', () => {
 }
  }))
  */
- let stelline = document.querySelectorAll('.stelline');
- stelline.forEach(stellina =>
-   stellina.addEventListener('mouseover', () => 
-   stellina.innerHTML = `<i class="fa-solid fa-star"></i>`
- ),
+//  let stelline = document.querySelectorAll('.stelline');
+//  stelline.forEach(stellina =>
+//    stellina.addEventListener('mouseover', () => 
+//    stellina.innerHTML = `<i class="fa-solid fa-star"></i>`
+//  ),
 
- stelline.forEach(stellina =>
-   stellina.addEventListener('mouseleave', () =>
-   stellina.innerHTML = `<i class="fa-regular fa-star"></i>`
-   ))
-)
+//  stelline.forEach(stellina =>
+//    stellina.addEventListener('mouseleave', () =>
+//    stellina.innerHTML = `<i class="fa-regular fa-star"></i>`
+//    ))
+// )
 
 /* stelline.forEach(stellina => {
    if(stellina.addEventListener('mouseover') == true){
@@ -42,6 +42,8 @@ window.addEventListener('scroll', () => {
    }
    return stellina
 }) */
+
+
 
 
 
