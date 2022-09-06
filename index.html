@@ -9,7 +9,7 @@
     <!-- aos cdn -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-<!-- FONT -->
+<!-- FONT --> 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,6 +74,22 @@
                         <i class="fa-solid fa-xmark closebtn"></i>
                         <h5 id="offcanvasRightLabel">Offcanvas right</h5>
                     </div>
+                    <div>
+                      <ul class="navbar-nav d-flex">
+                          <li class="nav-item  mx-1">
+                              <a class="nav-link colorAnchor" aria-current="page" href="./index.html">Home</a>
+                          </li>
+                          <li class="nav-item mx-1">
+                              <a class="nav-link colorAnchor" href="./product.html">Product</a>
+                          </li>
+                          <li class="nav-item mx-1">
+                              <a class="nav-link colorAnchor" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item mx-1">
+                              <a class="nav-link colorAnchor" href="#">Disabled</a>
+                          </li>
+                      </ul>
+                  </div>
                     </div>
                   </div>
             </span>
@@ -84,7 +100,7 @@
                 <a class="nav-link colorAnchor" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item mx-1">
-                <a class="nav-link colorAnchor" href="#">Product</a>
+                <a class="nav-link colorAnchor" href="./product.html">Product</a>
               </li>
               <li class="nav-item mx-1">
                 <a class="nav-link colorAnchor" href="#">About Us</a>
@@ -346,7 +362,8 @@
    </div>
 
    <!-- newsletter subscribe -->
-   <section class="newsletter mb-5">
+   <section class="newsletter mb-5" data-aos="fade-zoom-in"
+   data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
         <div class="container h-100">
           <div class="row h-100 justify-content-center align-items-center">
             <div class="col-12 col-md-6 text-center text-white">
@@ -436,7 +453,7 @@
          <h4 class="text-center fs-1 fw-bold">Leadership</h4>
       </div>
       <div class="row justify-content-evenly align-items-center mt-5">
-        <div class="col-10 col-md-5 col-lg-3 text-center cardOurTeam">
+        <div class="col-10 col-md-5 col-lg-3 text-center cardOurTeam" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
           <img src="./media/foto-neve2.jpeg" class="img-fluid" alt="imm team">
           <h5 class="fs-5 mt-4">Mario bros</h5>
           <p class="text-muted roleOurTeam">CO-FOUNDER, PRESIDENT</p>
@@ -448,7 +465,7 @@
             <li class="iconsBackgroundTeam d-flex justify-content-center align-items-center mx-2"><a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
           </ul>
         </div>
-        <div class="col-10 col-md-5 col-lg-3 text-center cardOurTeam">
+        <div class="col-10 col-md-5 col-lg-3 text-center cardOurTeam" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
             <img src="./media/capra_giorgia.jpeg" class="img-fluid" alt="imm team" >
             <h5 class="fs-5 mt-4">Giorgia</h5>
             <p class="text-muted roleOurTeam">CO-FOUNDER, PRESIDENT</p>
@@ -461,7 +478,7 @@
               <li class="iconsBackgroundTeam d-flex justify-content-center align-items-center mx-2"><a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
             </ul>
           </div>
-          <div class="col-10 col-md-5 col-lg-3 text-center cardOurTeam">
+          <div class="col-10 col-md-5 col-lg-3 text-center cardOurTeam" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <img src="./media/Capra2-giorgia.jpeg" class="img-fluid" alt="imm team">
               <h5 class="fs-5 mt-4">John Foster</h5>
               <p class="text-muted roleOurTeam">CO-FOUNDER, PRESIDENT</p>
@@ -473,12 +490,57 @@
                 <li class="iconsBackgroundTeam d-flex justify-content-center align-items-center mx-2"><a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
               </ul>
             </div>
-        
-
       </div>
     </div>
-
    </section>
+   <footer class="container bg-dark">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <p class="text-muted">© 2022</p>
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+      </ul>
+    </div>
+  </footer>
+
+   </footer>
       
 
 
